@@ -11,6 +11,6 @@
 ***
 ### Далее, если вы все сделали правильно
 1. Возможно, что у вас все равно будет отличаться как у меня, для этого нужно поправить кое-какой код в исходнике
-2. Открывает файл `nvim ~./config/nvim/lua/plugins/configs/heirline.lua`
+2. Открываем файл `nvim ~./config/nvim/lua/plugins/configs/heirline.lua`
 3. **Ищем строчку №12** -> `local StatusLine = get_hlgroup("StatusLine", { fg = C.fg, bg = C.dark_bg })`
 4. Меняем только "StatusLine" на "Normal"
