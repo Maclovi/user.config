@@ -2,6 +2,8 @@
 return {
   opt = {
     -- set to true or false etc.
+    colorcolumn = "80",
+    scrolloff = 7,
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
